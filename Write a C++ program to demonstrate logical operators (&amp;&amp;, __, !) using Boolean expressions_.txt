@@ -1,2 +1,14 @@
-429: Too Many Requests
-For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).
+#include <iostream>
+using namespace std;
+
+int main() {
+    bool a = true;
+    bool b = false;
+
+    cout << "a && b = " << (a && b) << endl;
+    cout << "a || b = " << (a || b) << endl;
+    cout << "!a = " << (!a) << endl;
+    cout << "!b = " << (!b) << endl;
+
+    return 0;
+}
